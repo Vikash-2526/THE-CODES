@@ -1,0 +1,10 @@
+def fibb(n):
+    if (n<=1):
+        return n
+    else:
+        return (fibb(n-1)+fibb(n-2))
+n=int(input("num:"))
+print("The Fibonnacci series is:")
+for i in range (0, n):
+    print(fibb(i), "(", i+1, ")", sep='',end=' ')
+print()
