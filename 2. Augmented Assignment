@@ -1,0 +1,4 @@
+#program for augmented assignment
+name1,name2=99,33
+name1+=name2 #name1+name2
+print(name1)
