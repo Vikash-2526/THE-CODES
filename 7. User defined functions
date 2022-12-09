@@ -1,0 +1,25 @@
+def addition(x,y): # here x and y are used as parameters
+    print("sum is =",x+y)
+
+def subtraction(a,b):
+    print("diff is =",a-b)
+
+addition(5,7)
+subtraction(7,5)
+
+def multiplication(c,d):
+    print("multiplication is =",c*d)
+
+def division(e,f):
+    print("division is =",e/f)
+
+def modulardivision(g,h):
+    print("modular divison is =",g%h)
+
+x1=int(input("enter num 1 "))
+y1=int(input("enter num 2 "))
+addition(x1,y1)
+subtraction(x1,y1)
+multiplication(x1,y1)
+division(x1,y1)
+modulardivision(x1,y1)
