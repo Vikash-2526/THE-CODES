@@ -1,0 +1,10 @@
+a=input("Data: ")
+l=a.split(",")
+b=tuple(l)
+print(b)
+value=input()
+if value in b:
+    print("you are great")
+else:
+    print("system failure")
+
