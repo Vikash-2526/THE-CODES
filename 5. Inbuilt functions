@@ -1,0 +1,17 @@
+# min and max
+a="DellAlienwarex17r2"
+print(min(a))
+print(max(a))
+
+a="hello python"
+print(a.startswith('h'))
+
+str = input("str: ")
+if str.startswith("Python"):
+	print("str is:", str)
+else:
+	str = "Python" + " "+ str
+	print("str after adding 'Python':", str)
+
+
+
