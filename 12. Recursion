@@ -1,0 +1,11 @@
+# every recursive function can be solved with iteration but every iteration function cannot be called as recursion
+def recurfact(n):
+    if n==1 or n==0:
+        return 1
+    else:
+        return n+recurfact(n-1)
+num=int(input("num: "))
+if num<0:
+    print("factorial not exist for negative numbers")
+else:
+    print("factorial:",recurfact(num))
