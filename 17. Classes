@@ -1,0 +1,13 @@
+class teacher:
+    name = None
+    uid = None
+    sal = None
+    def __init__(self,x,y,z): #constructor method to initialise the data member
+        self.name=x
+        self.uid=y
+        self.sal=z
+    def cal_tax(self): # fun def
+        tax=self.sal*0.20
+        print(tax)
+t1=teacher("Vikash",45454,1220000)
+t1.cal_tax()
