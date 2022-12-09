@@ -1,0 +1,9 @@
+v1=55
+v2=45
+v3=v1+v2
+print(v3)
+
+print(3**4) # ** is for power
+
+print(25//4) # // will give you intergral quotient also known as floor division
+
