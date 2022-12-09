@@ -1,0 +1,28 @@
+#class is like a group which has many members like student is a class and we all are members of this class.
+#teacher is a class and our all the teachers are a part of it.
+#object is nothing but the elements of the class
+
+
+#Procedure/Function oriented programming
+#Object based programming
+#Object oriented programming
+
+#Encapsulation:- combining data and procedures in a single class
+#Inheritence:- Ability to create sub-classes from existing classes
+#Polymorphism:- Ability of an object to adapt the code to the type of the data it is processing
+
+class emp:
+    pass
+emp1=emp() # object emp1 created constructor method
+emp2=emp()
+name =input("name:")
+emp1.name=name #objname.attr=attr
+sal1=input("enter sal:")
+emp1.sal=sal1
+emp1.age=25
+emp1.des="AP"
+print(emp1.name)
+print(emp1.sal)
+print(emp1.age)
+print(emp1.des)
+
