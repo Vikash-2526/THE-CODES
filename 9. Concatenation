@@ -1,0 +1,5 @@
+a="Vikash"
+b="is"
+c="god"
+print(a+b+c+a+a)
+print(a+" "+b+" "+c) # to add space
