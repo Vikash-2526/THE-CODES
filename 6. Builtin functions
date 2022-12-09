@@ -1,0 +1,53 @@
+# build in string methods
+a="welcome to Python World"
+print(a.capitalize()) # it capitalize the first letter of the string
+print(a.upper())
+print(a.lower())
+print(a.title()) # it capitalizes first word of each letter
+print(a.swapcase()) # every character changes its case
+print(a.split()) # it convert string to list
+print(a.center(50,"V"))
+print(len(a))
+
+b="hello how are you ,hello"
+print(b.count("hello"))
+print(b.replace("hello","bye"))
+
+c='.'
+l1=["www","Vikash","com"]
+print(c.join(l1))
+
+z=input("Z: ")
+print(z.upper())
+print(z.title())
+print(z.split())
+print(z.capitalize())
+print(z.lower())
+print("@".join(z))
+print(z.replace("","@"))
+print(z.capitalize())
+
+w="vikash"
+print(w.islower())
+
+v="Aditya"
+print(v.isupper())
+
+c="visdh5"
+print(c.isalpha()) # true if it only contains alphabets
+
+d="544hg"
+print(d.isalnum()) # returns true if we alphabets and numbers together
+
+f="6546546"
+print(f.isdigit()) # returns true if digits
+
+p=" "
+print(p.isspace()) # returns true if there is only space in the string
+
+q="Hello Sir"
+print(q.istitle()) # returns true if string is in the title case
+
+
+
+
