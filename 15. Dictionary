@@ -1,0 +1,24 @@
+x11={}
+print(x11,type(x11))
+x1={"x":1,"y":2,"z":3}
+x1["w"]=9
+print(x1)
+x11["v"]=25
+print(x11)
+x1["y"]=22
+print(x1)
+# we can add and update with the same method in the dictionary
+
+#another method to create a dictionary
+d=dict([("jan",1),("feb",2),("march",3)])
+print(d)
+print(d["march"])
+print(d["march"]==33)
+print(d.get("jan"))
+d["march"]=33
+print(d)
+
+
+print(d.get("ram"))
+#print(d["ram"])
+
